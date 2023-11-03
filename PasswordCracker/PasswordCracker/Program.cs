@@ -111,7 +111,7 @@ namespace PasswordCracker
                 }
 
                 
-                Console.WriteLine(nums);
+                
             }
 
             Console.Write(counter);
@@ -122,9 +122,9 @@ namespace PasswordCracker
                 {
                     if (hashedPasswords[i] == nums[j])
                     {
-                        Console.WriteLine("hashed: " + hashedPasswords[i] + "generated: " + nums[j]);
+                        
                         hashedPasswords[i] = unhashed[j];
-                        Console.WriteLine(i);
+                        
                         break;
                     }
                 }
